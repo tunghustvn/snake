@@ -7,3 +7,5 @@ imgaug
 pycocotools
 Pillow
 tensorboardX
+requests
+termcolor
