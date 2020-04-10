@@ -7,7 +7,11 @@ conda activate snake
 # install torch 1.1 built from cuda 9.0
 pip install torch==1.1.0 -f https://download.pytorch.org/whl/cu90/stable
 
-pip install Cython==0.28.2
+# or
+# install the latest version of torch
+pip install torch
+
+pip install Cython
 pip install -r requirements.txt
 
 # install apex

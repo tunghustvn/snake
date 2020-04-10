@@ -1,0 +1,10 @@
+#1:
+conda: command not found
+
+#2: 
+When run this command:
+$ python run.py --type evaluate --cfg_file configs/city_rcnn_snake.yaml test.dataset CityscapesCocoPoleVal
+
+[AttributeError: 'NoneType' object has no attribute 'shape']
+
+
