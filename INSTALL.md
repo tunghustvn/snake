@@ -1,3 +1,10 @@
+### Check the cuda version and cuda compiled pytorch version
+```
+python -c "import torch; print(torch.version.cuda)"
+nvcc --version
+
+```
+
 ### Set up the python environment
 
 ```
