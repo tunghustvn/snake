@@ -45,6 +45,20 @@ class DatasetCatalog(object):
             'ann_file': 'data/cityscapes/coco_ann/instance_val.json',
             'split': 'val'
         },
+        # Add annotations of poles
+        'CityscapesCocoPoleVal': {
+            'id': 'cityscapes_coco_pole',
+            'data_root': 'data/cityscapes/coco_img/val',
+            'ann_file': 'data/cityscapes/coco_ann/instancesonly_filtered_gtFine_val.json',
+            'split': 'val'
+        },
+        'CityscapesCocoPoleTrain': {
+            'id': 'cityscapes_coco_pole',
+            'data_root': 'data/cityscapes/coco_img/train',
+            'ann_file': 'data/cityscapes/coco_ann/instancesonly_filtered_gtFine_train.json',
+            'split': 'train'
+        },
+        # Finish adding annotations
         'CityCocoBox': {
             'id': 'cityscapes_coco',
             'data_root': 'data/cityscapes/leftImg8bit/val',
